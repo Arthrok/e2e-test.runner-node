@@ -13,7 +13,7 @@ describe("API Workflow", () => {
     after(done => _server.close(done))
 
 
-    it('deve receber um status de não autorizado quando senhar ou user estiver errado', async () => {
+    it('deve receber um status de não autorizado quando senha ou user estiver errado', async () => {
         const data = {
             user: "arth",
             password: ''
